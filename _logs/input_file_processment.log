@@ -1,0 +1,96 @@
+2025-03-14 23:24:30,005 - INFO - Reading the worktray from: process_data\worktray.xlsx
+2025-03-14 23:24:30,381 - INFO - Worktray validation completed and saved to: process_data\worktray.xlsx
+2025-03-14 23:24:30,381 - INFO - Worktray validation completed successfully.
+2025-03-14 23:28:24,574 - INFO - Reading the worktray from: process_data\worktray.xlsx
+2025-03-14 23:28:24,602 - INFO - Worktray validation completed and saved to: process_data\worktray.xlsx
+2025-03-14 23:28:24,602 - INFO - Worktray validation completed successfully.
+2025-03-14 23:32:18,063 - INFO - Reading the worktray from: process_data\worktray.xlsx
+2025-03-14 23:32:18,102 - INFO - Worktray validation completed and saved to: process_data\worktray.xlsx
+2025-03-14 23:32:18,102 - INFO - Worktray validation completed successfully.
+2025-03-14 23:33:13,076 - INFO - Reading the worktray from: process_data\worktray.xlsx
+2025-03-14 23:33:13,108 - INFO - Worktray validation completed and saved to: process_data\worktray.xlsx
+2025-03-14 23:33:13,108 - INFO - Worktray validation completed successfully.
+2025-03-14 23:33:55,745 - INFO - Reading the worktray from: process_data\worktray.xlsx
+2025-03-14 23:33:55,783 - INFO - Worktray validation completed and saved to: process_data\worktray.xlsx
+2025-03-14 23:33:55,783 - INFO - Worktray validation completed successfully.
+2025-03-15 00:44:19,953 - INFO - Reading the worktray from: process_data\worktray.xlsx
+2025-03-15 00:44:19,969 - ERROR - Error validating the worktray: strptime() argument 1 must be str, not datetime.datetime
+2025-03-15 00:44:19,969 - ERROR - Worktray validation failed. Check the logs for details.
+2025-03-15 00:44:44,134 - INFO - Reading the worktray from: process_data\worktray.xlsx
+2025-03-15 00:44:44,143 - ERROR - Error validating the worktray: strptime() argument 1 must be str, not datetime.datetime
+2025-03-15 00:44:44,143 - ERROR - Worktray validation failed. Check the logs for details.
+2025-03-15 00:45:37,509 - INFO - Reading the worktray from: process_data\worktray.xlsx
+2025-03-15 00:45:37,518 - ERROR - Error validating the worktray: strptime() argument 1 must be str, not datetime.datetime
+2025-03-15 00:45:37,518 - ERROR - Worktray validation failed. Check the logs for details.
+2025-03-15 00:46:53,319 - INFO - Reading the worktray from: process_data\worktray.xlsx
+2025-03-15 00:46:53,326 - ERROR - Error validating the worktray: strptime() argument 1 must be str, not datetime.datetime
+2025-03-15 00:46:53,327 - ERROR - Worktray validation failed. Check the logs for details.
+2025-03-15 00:47:55,946 - INFO - Reading the worktray from: process_data\worktray.xlsx
+2025-03-15 00:47:55,979 - INFO - Worktray validation completed and saved to: process_data\worktray.xlsx
+2025-03-15 00:47:55,979 - INFO - Worktray validation completed successfully.
+2025-03-15 00:48:12,661 - INFO - Reading the worktray from: process_data\worktray.xlsx
+2025-03-15 00:48:12,688 - INFO - Worktray validation completed and saved to: process_data\worktray.xlsx
+2025-03-15 00:48:12,689 - INFO - Worktray validation completed successfully.
+2025-03-15 00:53:19,303 - INFO - Reading the worktray from: process_data\worktray.xlsx
+2025-03-15 00:53:19,310 - ERROR - Error validating the worktray: strptime() argument 1 must be str, not datetime.datetime
+2025-03-15 00:53:19,310 - ERROR - Worktray validation failed. Check the logs for details.
+2025-03-15 00:55:07,577 - INFO - Reading the worktray from: process_data\worktray.xlsx
+2025-03-15 00:55:07,634 - INFO - Worktray validation completed and saved to: process_data\worktray.xlsx
+2025-03-15 00:55:07,634 - INFO - Worktray validation completed successfully.
+2025-03-15 00:57:24,998 - INFO - Reading the worktray from: process_data\worktray.xlsx
+2025-03-15 00:57:25,025 - INFO - Worktray validation completed and saved to: process_data\worktray.xlsx
+2025-03-15 00:57:25,025 - INFO - Worktray validation completed successfully.
+2025-03-15 00:57:49,545 - INFO - Reading the worktray from: process_data\worktray.xlsx
+2025-03-15 00:57:49,574 - INFO - Worktray validation completed and saved to: process_data\worktray.xlsx
+2025-03-15 00:57:49,574 - INFO - Worktray validation completed successfully.
+2025-03-15 00:59:46,420 - INFO - Reading the worktray from: process_data\worktray.xlsx
+2025-03-15 00:59:46,447 - INFO - Worktray validation completed and saved to: process_data\worktray.xlsx
+2025-03-15 00:59:46,447 - INFO - Worktray validation completed successfully.
+2025-03-15 01:00:09,251 - INFO - Reading the worktray from: process_data\worktray.xlsx
+2025-03-15 01:00:09,288 - INFO - Worktray validation completed and saved to: process_data\worktray.xlsx
+2025-03-15 01:00:09,289 - INFO - Worktray validation completed successfully.
+2025-03-15 01:02:29,493 - INFO - Reading the worktray from: process_data\worktray.xlsx
+2025-03-15 01:02:29,531 - INFO - Worktray validation completed and saved to: process_data\worktray.xlsx
+2025-03-15 01:02:29,532 - INFO - Worktray validation completed successfully.
+2025-03-15 01:05:02,960 - INFO - Reading the worktray from: process_data\worktray.xlsx
+2025-03-15 01:05:02,988 - INFO - Worktray validation completed and saved to: process_data\worktray.xlsx
+2025-03-15 01:05:02,989 - INFO - Worktray validation completed successfully.
+2025-03-15 01:05:55,031 - INFO - Reading the worktray from: process_data\worktray.xlsx
+2025-03-15 01:05:55,068 - INFO - Worktray validation completed and saved to: process_data\worktray.xlsx
+2025-03-15 01:05:55,068 - INFO - Worktray validation completed successfully.
+2025-03-15 01:11:14,039 - INFO - Reading the worktray from: process_data\worktray.xlsx
+2025-03-15 01:11:14,075 - INFO - Worktray validation completed and saved to: process_data\worktray.xlsx
+2025-03-15 01:11:14,075 - INFO - Worktray validation completed successfully.
+2025-03-15 01:13:40,902 - INFO - Reading the worktray from: process_data\worktray.xlsx
+2025-03-15 01:13:40,932 - INFO - Worktray validation completed and saved to: process_data\worktray.xlsx
+2025-03-15 01:13:40,933 - INFO - Worktray validation completed successfully.
+2025-03-15 01:14:02,463 - INFO - Reading the worktray from: process_data\worktray.xlsx
+2025-03-15 01:14:02,517 - INFO - Worktray validation completed and saved to: process_data\worktray.xlsx
+2025-03-15 01:14:02,518 - INFO - Worktray validation completed successfully.
+2025-03-15 01:14:21,686 - INFO - Reading the worktray from: process_data\worktray.xlsx
+2025-03-15 01:14:21,707 - INFO - Worktray validation completed and saved to: process_data\worktray.xlsx
+2025-03-15 01:14:21,707 - INFO - Worktray validation completed successfully.
+2025-03-15 01:18:28,347 - INFO - Reading the worktray from: process_data\worktray.xlsx
+2025-03-15 01:18:28,379 - INFO - Worktray validation completed and saved to: process_data\worktray.xlsx
+2025-03-15 01:18:28,379 - INFO - Worktray validation completed successfully.
+2025-03-15 01:22:05,270 - INFO - Reading the worktray from: process_data\worktray.xlsx
+2025-03-15 01:22:05,328 - INFO - Worktray validation completed and saved to: process_data\worktray.xlsx
+2025-03-15 01:22:05,328 - INFO - Worktray validation completed successfully.
+2025-03-15 01:24:19,989 - INFO - Reading the worktray from: process_data\worktray.xlsx
+2025-03-15 01:24:20,029 - INFO - Worktray validation completed and saved to: process_data\worktray.xlsx
+2025-03-15 01:24:20,030 - INFO - Worktray validation completed successfully.
+2025-03-15 01:27:28,424 - INFO - Reading the worktray from: process_data\worktray.xlsx
+2025-03-15 01:27:28,452 - INFO - Worktray validation completed and saved to: process_data\worktray.xlsx
+2025-03-15 01:27:28,452 - INFO - Worktray validation completed successfully.
+2025-03-15 01:27:57,437 - INFO - Reading the worktray from: process_data\worktray.xlsx
+2025-03-15 01:27:57,464 - INFO - Worktray validation completed and saved to: process_data\worktray.xlsx
+2025-03-15 01:27:57,465 - INFO - Worktray validation completed successfully.
+2025-03-15 01:30:32,687 - INFO - Reading the worktray from: process_data\worktray.xlsx
+2025-03-15 01:30:32,724 - INFO - Worktray validation completed and saved to: process_data\worktray.xlsx
+2025-03-15 01:30:32,725 - INFO - Worktray validation completed successfully.
+2025-03-15 01:33:30,248 - INFO - Reading the worktray from: process_data\worktray.xlsx
+2025-03-15 01:33:30,286 - INFO - Worktray validation completed and saved to: process_data\worktray.xlsx
+2025-03-15 01:33:30,286 - INFO - Worktray validation completed successfully.
+2025-03-15 01:46:26,498 - INFO - Reading the worktray from: process_data\worktray.xlsx
+2025-03-15 01:46:26,549 - INFO - Worktray validation completed and saved to: process_data\worktray.xlsx
+2025-03-15 01:46:26,550 - INFO - Worktray validation completed successfully.

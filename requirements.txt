@@ -1,0 +1,6 @@
+shutil
+pandas
+logging
+openpyxl
+re
+requests

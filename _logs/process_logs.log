@@ -1,0 +1,23 @@
+2025-03-15 01:47:59,445 - INFO - Starting the process.
+2025-03-15 01:47:59,445 - INFO - Step 1: Creating the worktray.
+2025-03-15 01:47:59,449 - INFO - Template copied to: process_data\worktray.xlsx
+2025-03-15 01:47:59,498 - INFO - Worktray successfully updated and saved to: process_data\worktray.xlsx
+2025-03-15 01:47:59,498 - INFO - Worktray created successfully.
+2025-03-15 01:47:59,498 - INFO - Step 2: Validating the worktray.
+2025-03-15 01:47:59,498 - INFO - Reading the worktray from: process_data\worktray.xlsx
+2025-03-15 01:47:59,530 - INFO - Worktray validation completed and saved to: process_data\worktray.xlsx
+2025-03-15 01:47:59,530 - INFO - Worktray validation completed successfully.
+2025-03-15 01:47:59,530 - INFO - Step 3: Submitting data to Google Forms.
+2025-03-15 01:47:59,530 - INFO - Reading the worktray from: process_data\worktray.xlsx
+2025-03-15 01:47:59,546 - INFO - Total rows to process: 4
+2025-03-15 01:47:59,546 - INFO - Processing row 1: ['A', 'Gomu Gomu no Mi', 3000000000, datetime.datetime(2025, 3, 15, 0, 0), True, 'PENDING', None, None, None]
+2025-03-15 01:47:59,546 - INFO - Skipping row 1: 'Datos correctos' is FALSE
+2025-03-15 01:47:59,546 - INFO - Processing row 2: ['B', None, 500000000, '15-3-2025', False, 'PENDING', 'Faltan datos; Ingrese un Producto válido; Fecha de Solicitud no está en formato fecha', None, None]
+2025-03-15 01:47:59,546 - INFO - Skipping row 2: 'Datos correctos' is FALSE
+2025-03-15 01:47:59,546 - INFO - Processing row 3: ['C', 'Hana Hana no Mi', 2000000000, datetime.datetime(2025, 3, 15, 0, 0), True, 'PENDING', None, None, None]
+2025-03-15 01:47:59,546 - INFO - Skipping row 3: 'Datos correctos' is FALSE
+2025-03-15 01:47:59,547 - INFO - Processing row 4: ['D', 'Máscara', 1, datetime.datetime(2025, 3, 15, 0, 0), True, 'PENDING', None, None, None]
+2025-03-15 01:47:59,547 - INFO - Skipping row 4: 'Datos correctos' is FALSE
+2025-03-15 01:47:59,562 - INFO - Worktray updated and saved to: process_data\worktray.xlsx
+2025-03-15 01:47:59,562 - INFO - Google Forms submission completed successfully.
+2025-03-15 01:47:59,562 - INFO - All steps completed successfully.
