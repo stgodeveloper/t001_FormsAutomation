@@ -1,0 +1,62 @@
+2025-03-14 22:49:33,200 - INFO - Reading the worktray template from: input\worktray_template.xlsx
+2025-03-14 22:49:33,201 - ERROR - Error creating the worktray: [Errno 2] No such file or directory: 'input\\worktray_template.xlsx'
+2025-03-14 22:49:33,206 - ERROR - Worktray creation failed. Check the logs for details.
+2025-03-14 22:49:47,005 - INFO - Reading the worktray template from: input\worktray_template.xlsx
+2025-03-14 22:49:47,007 - ERROR - Error creating the worktray: [Errno 2] No such file or directory: 'input\\worktray_template.xlsx'
+2025-03-14 22:49:47,009 - ERROR - Worktray creation failed. Check the logs for details.
+2025-03-14 22:52:02,996 - INFO - Reading the worktray template from: input\worktray_template.xlsx
+2025-03-14 22:52:03,421 - INFO - Reading the input file from: input\input_file.xlsx
+2025-03-14 22:52:03,478 - INFO - Worktray successfully created and saved to: process_data\worktray.xlsx
+2025-03-14 22:52:03,478 - INFO - Worktray creation completed successfully.
+2025-03-14 22:54:56,913 - INFO - Reading the worktray template from: input\worktray_template.xlsx
+2025-03-14 22:54:57,291 - INFO - Reading the input file from: input\input_file.xlsx
+2025-03-14 22:54:57,307 - ERROR - Error creating the worktray: [Errno 13] Permission denied: 'process_data\\worktray.xlsx'
+2025-03-14 22:54:57,308 - ERROR - Worktray creation failed. Check the logs for details.
+2025-03-14 22:55:10,030 - INFO - Reading the worktray template from: input\worktray_template.xlsx
+2025-03-14 22:55:10,329 - INFO - Reading the input file from: input\input_file.xlsx
+2025-03-14 22:55:10,365 - INFO - Worktray successfully created and saved to: process_data\worktray.xlsx
+2025-03-14 22:55:10,365 - INFO - Worktray creation completed successfully.
+2025-03-14 22:58:39,684 - INFO - Reading the worktray template from: input\worktray_template.xlsx
+2025-03-14 22:58:39,694 - INFO - Reading the input file from: input\input_file.xlsx
+2025-03-14 22:58:39,761 - INFO - Worktray successfully created and saved to: process_data\worktray.xlsx
+2025-03-14 22:58:39,761 - INFO - Worktray creation completed successfully.
+2025-03-14 23:02:25,921 - INFO - Worktray successfully created and saved to: process_data\worktray.xlsx
+2025-03-14 23:02:25,922 - INFO - Worktray creation completed successfully.
+2025-03-14 23:03:17,553 - INFO - Worktray successfully created and saved to: process_data\worktray.xlsx
+2025-03-14 23:03:17,553 - INFO - Worktray creation completed successfully.
+2025-03-14 23:07:21,159 - INFO - Reading the input file from: input\input_file.xlsx
+2025-03-14 23:07:21,203 - INFO - Worktray successfully created and saved to: process_data\worktray.xlsx
+2025-03-14 23:07:21,203 - INFO - Worktray creation completed successfully.
+2025-03-14 23:07:50,629 - INFO - Reading the worktray template from: input\worktray_template.xlsx
+2025-03-14 23:07:50,646 - INFO - Reading the input file from: input\input_file.xlsx
+2025-03-14 23:07:50,741 - INFO - Worktray successfully created and saved to: process_data\worktray.xlsx
+2025-03-14 23:07:50,741 - INFO - Worktray creation completed successfully.
+2025-03-14 23:09:12,179 - INFO - Reading the worktray template from: input\worktray_template.xlsx
+2025-03-14 23:09:12,185 - INFO - Reading the input file from: input\input_file.xlsx
+2025-03-14 23:09:12,265 - ERROR - Error creating the worktray: unhashable type: 'StyleProxy'
+2025-03-14 23:09:12,266 - ERROR - Worktray creation failed. Check the logs for details.
+2025-03-14 23:13:25,959 - INFO - Worktray successfully created and saved to: process_data\worktray.xlsx
+2025-03-14 23:13:25,959 - INFO - Worktray creation completed successfully.
+2025-03-14 23:17:20,673 - INFO - Worktray successfully created and saved to: process_data\worktray.xlsx
+2025-03-14 23:17:20,673 - INFO - Worktray creation completed successfully.
+2025-03-14 23:19:17,874 - INFO - Template copied to: process_data\worktray.xlsx
+2025-03-14 23:19:18,218 - ERROR - Error creating the worktray: name 'load_workbook' is not defined
+2025-03-14 23:19:18,218 - ERROR - Worktray creation failed. Check the logs for details.
+2025-03-14 23:21:03,635 - INFO - Template copied to: process_data\worktray.xlsx
+2025-03-14 23:21:03,690 - INFO - Worktray successfully updated and saved to: process_data\worktray.xlsx
+2025-03-14 23:21:03,691 - INFO - Worktray creation completed successfully.
+2025-03-14 23:32:56,994 - INFO - Template copied to: process_data\worktray.xlsx
+2025-03-14 23:32:57,069 - INFO - Worktray successfully updated and saved to: process_data\worktray.xlsx
+2025-03-14 23:32:57,069 - INFO - Worktray creation completed successfully.
+2025-03-14 23:33:51,008 - INFO - Template copied to: process_data\worktray.xlsx
+2025-03-14 23:33:51,055 - INFO - Worktray successfully updated and saved to: process_data\worktray.xlsx
+2025-03-14 23:33:51,055 - INFO - Worktray creation completed successfully.
+2025-03-15 00:40:45,392 - INFO - Template copied to: process_data\worktray.xlsx
+2025-03-15 00:40:45,445 - INFO - Worktray successfully updated and saved to: process_data\worktray.xlsx
+2025-03-15 00:40:45,446 - INFO - Worktray creation completed successfully.
+2025-03-15 00:48:46,379 - INFO - Template copied to: process_data\worktray.xlsx
+2025-03-15 00:48:46,457 - INFO - Worktray successfully updated and saved to: process_data\worktray.xlsx
+2025-03-15 00:48:46,457 - INFO - Worktray creation completed successfully.
+2025-03-15 00:57:45,677 - INFO - Template copied to: process_data\worktray.xlsx
+2025-03-15 00:57:45,715 - INFO - Worktray successfully updated and saved to: process_data\worktray.xlsx
+2025-03-15 00:57:45,715 - INFO - Worktray creation completed successfully.
