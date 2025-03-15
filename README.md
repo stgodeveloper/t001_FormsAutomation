@@ -47,7 +47,7 @@ The project is modular, with each task handled by a separate Python script. Deta
 ## How It Works
 
 1. **Worktray Creation**:
-   - The `worktray_creation.py` script reads the input file (`input_file.xlsx`) and creates a worktray (`worktray.xlsx`) using a template (`worktray_template.xlsx`).
+   - The `worktray_creation.py` script reads the input file (`input_file.xlsx`) and creates the worktray (`worktray.xlsx`) using a template (`worktray_template.xlsx`).
    - It ensures that all required columns are present and initializes the worktray with default values.
 
 2. **Data Validation**:
