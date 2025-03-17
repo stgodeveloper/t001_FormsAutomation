@@ -4,14 +4,32 @@ import logging
 import os
 from openpyxl import load_workbook
 
-logging.info("---- Starting module 'worktray_creation' ----")
-
 # Configurable parameters
+LOGS_DIRECTORY = "_logs"  # Directory to store logs
+LOGS_FILE = os.path.join(LOGS_DIRECTORY, "worktray_creation.log")  # Log file path
+PROCESS_DATA_DIRECTORY = "process_data"
+WORKTRAY_FILE = "worktray.xlsx"
 INPUT_DIRECTORY = "input"
 WORKTRAY_TEMPLATE_FILE = "worktray_template.xlsx"
 INPUT_FILE = "input_file.xlsx"
 PROCESS_DATA_DIRECTORY = "process_data"
 WORKTRAY_OUTPUT_FILE = "worktray.xlsx"
+
+def configure_logging():
+    """
+    Configures logging for the application.
+    """
+    if not os.path.exists(LOGS_DIRECTORY):
+        os.makedirs(LOGS_DIRECTORY)
+    
+    # Clear any existing logging configuration
+    logging.basicConfig(
+        filename=LOGS_FILE,
+        level=logging.INFO,
+        format="%(asctime)s - %(levelname)s - %(message)s",
+        force=True  # Force reconfiguration of logging
+    )
+    logging.info("Logging configured successfully.")
 
 # Required columns in the template
 REQUIRED_COLUMNS = [
@@ -74,13 +92,8 @@ if __name__ == "__main__":
     # Configure logging
     if not os.path.exists("_logs"):
         os.makedirs("_logs")
-
-    logging.basicConfig(
-        filename="_logs/worktray_creation.log",
-        level=logging.INFO,
-        format="%(asctime)s - %(levelname)s - %(message)s"
-    )
-    
+    configure_logging()
+    logging.info("---- Starting module 'worktray_creation' ----")
     # Create the worktray
     worktray = create_worktray()
     

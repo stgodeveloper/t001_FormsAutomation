@@ -11,12 +11,30 @@ PROCESS_DATA_DIRECTORY = "process_data"
 WORKTRAY_FILE = "worktray.xlsx"
 GOOGLE_FORM_URL = "https://docs.google.com/forms/d/e/1FAIpQLSf_5o0pOYiDzAJp2uRdSfoj5xxIfzFs0M9beiaXTsdFgeAcrw/formResponse"  # Form submission URL
 SUBMISSION_DELAY = 1  # Delay between submissions (in seconds)
+LOGS_DIRECTORY = "_logs"  # Directory to store logs
+LOGS_FILE = os.path.join(LOGS_DIRECTORY, "google_forms_submission.log")  # Log file path
 
 # Status messages
 SUCCESS_MESSAGE = "Ingreso exitoso a Forms"
 FAILURE_MESSAGE = "Error en el ingreso a Forms"
 NETWORK_ERROR_MESSAGE = "Error de conexión (revise su conexión a internet o la URL del formulario)"
 BROWSER_ERROR_MESSAGE = "Error de navegador (no se pudo acceder al formulario)"
+
+def configure_logging():
+    """
+    Configures logging for the application.
+    """
+    if not os.path.exists(LOGS_DIRECTORY):
+        os.makedirs(LOGS_DIRECTORY)
+    
+    # Clear any existing logging configuration
+    logging.basicConfig(
+        filename=LOGS_FILE,
+        level=logging.INFO,
+        format="%(asctime)s - %(levelname)s - %(message)s",
+        force=True  # Force reconfiguration of logging
+    )
+    logging.info("Logging configured successfully.")
 
 def submit_to_google_forms():
     """
@@ -125,13 +143,8 @@ if __name__ == "__main__":
     # Configure logging
     if not os.path.exists("_logs"):
         os.makedirs("_logs")
-
-    logging.basicConfig(
-        filename="_logs/google_forms_submission.log",
-        level=logging.INFO,
-        format="%(asctime)s - %(levelname)s - %(message)s"
-    )
-    
+    configure_logging()
+    logging.info("---- Starting module 'google_forms_submission' ----")
     # Submit data to Google Forms
     success = submit_to_google_forms()
     

@@ -1,0 +1,6 @@
+2025-03-17 00:41:11,441 - DEBUG - ---- Starting module 'input_validation' ----
+2025-03-17 00:41:16,557 - INFO - Input file validation passed. Returning True.
+2025-03-17 00:41:16,557 - INFO - Module finished. Final result: True
+2025-03-17 00:43:48,814 - INFO - Logging configured successfully.
+2025-03-17 00:43:51,478 - INFO - Input file validation passed. Returning True.
+2025-03-17 00:43:51,478 - INFO - Module finished. Final result: True

@@ -4,9 +4,9 @@ from openpyxl import load_workbook
 from datetime import datetime
 import re  # Regular expressions for special character validation
 
-logging.info("---- Starting module 'input_file_processment' ----")
-
 # Configurable parameters
+LOGS_DIRECTORY = "_logs"  # Directory to store logs
+LOGS_FILE = os.path.join(LOGS_DIRECTORY, "input_file_processment.log")  # Log file path
 PROCESS_DATA_DIRECTORY = "process_data"
 WORKTRAY_FILE = "worktray.xlsx"
 
@@ -17,6 +17,22 @@ INVALID_NAME_TEXT_MESSAGE = "Ingrese Nombre válido"
 INVALID_PRODUCT_TEXT_MESSAGE = "Ingrese un Producto válido"
 INVALID_NUMBER_MESSAGE = "Ingrese un monto válido"
 INVALID_SPECIAL_CHARACTERS_MESSAGE = "Caracteres especiales no permitidos"
+
+def configure_logging():
+    """
+    Configures logging for the application.
+    """
+    if not os.path.exists(LOGS_DIRECTORY):
+        os.makedirs(LOGS_DIRECTORY)
+    
+    # Clear any existing logging configuration
+    logging.basicConfig(
+        filename=LOGS_FILE,
+        level=logging.INFO,
+        format="%(asctime)s - %(levelname)s - %(message)s",
+        force=True  # Force reconfiguration of logging
+    )
+    logging.info("Logging configured successfully.")
 
 def is_excel_date(value):
     """
@@ -156,13 +172,9 @@ if __name__ == "__main__":
     # Configure logging
     if not os.path.exists("_logs"):
         os.makedirs("_logs")
-
-    logging.basicConfig(
-        filename="_logs/input_file_processment.log",
-        level=logging.INFO,
-        format="%(asctime)s - %(levelname)s - %(message)s"
-    )
-    
+        
+    configure_logging()
+    logging.info("---- Starting module 'input_file_processment' ----")
     # Validate the worktray
     success = validate_worktray()
     
