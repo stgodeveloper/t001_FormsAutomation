@@ -47,7 +47,7 @@ The project is modular, with each task handled by a separate Python script. Deta
 ## How It Works
 
 1. **Input validation**:
-   -The `input_validation.py` file ensures that the structure of the process input is validated.
+   - The `input_validation.py` file ensures that the structure of the process input is validated.
 
 2. **Worktray Creation**:
    - The `worktray_creation.py` script reads the input file (`input_file.xlsx`) and creates the worktray (`worktray.xlsx`) using a template (`worktray_template.xlsx`).
