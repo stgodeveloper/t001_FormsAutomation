@@ -3,6 +3,8 @@ import time
 import os
 from openpyxl import load_workbook
 import requests
+import tkinter as tk
+from tkinter import messagebox
 
 logging.info("---- Starting module 'google_forms_submission' ----")
 
@@ -36,6 +38,45 @@ def configure_logging():
     )
     logging.info("Logging configured successfully.")
 
+def show_results_popup(success_count, failure_count):
+    """
+    Shows a popup with the results of the execution.
+    """
+    root = tk.Tk()
+    root.withdraw()  # Hide the root window
+
+    # Create a Toplevel window for the popup
+    popup = tk.Toplevel(root)
+    popup.title("Resultados de la Ejecución")
+    popup.geometry("400x150")  # Set the size of the popup
+
+    # Add a label with the message
+    message = f"Resultados de la ejecución:\n\n- Filas cargadas exitosamente: {success_count}\n- Filas no cargadas: {failure_count}"
+    label = tk.Label(popup, text=message)
+    label.pack(pady=10)
+
+    # Function to handle the "Ok" button
+    def on_ok():
+        popup.destroy()
+        root.quit()
+
+    # Add an "Ok" button
+    ok_button = tk.Button(popup, text="Ok", command=on_ok)
+    ok_button.pack(pady=10)
+
+    # Center the popup
+    popup.update_idletasks()
+    width = popup.winfo_width()
+    height = popup.winfo_height()
+    screen_width = popup.winfo_screenwidth()
+    screen_height = popup.winfo_screenheight()
+    x = (screen_width // 2) - (width // 2)
+    y = (screen_height // 2) - (height // 2)
+    popup.geometry(f"+{x}+{y}")
+
+    # Wait for the user to interact with the popup
+    popup.mainloop()
+
 def submit_to_google_forms():
     """
     Submits data from the worktray to Google Forms.
@@ -56,6 +97,10 @@ def submit_to_google_forms():
         # Log the number of rows to process
         total_rows = worktray_ws.max_row - 1  # Subtract header row
         logging.info(f"Total rows to process: {total_rows}")
+
+        # Counters for successful and failed submissions
+        success_count = 0
+        failure_count = 0
         
         # Iterate through rows (skip the header row)
         for row in worktray_ws.iter_rows(min_row=2, max_row=worktray_ws.max_row, min_col=1, max_col=9):
@@ -65,11 +110,13 @@ def submit_to_google_forms():
             # Skip rows where "Datos correctos" is FALSE
             if row[4].value != True:
                 logging.info(f"Skipping row {row_number}: 'Datos correctos' is FALSE")
+                failure_count += 1
                 continue
             
             # Skip rows where "Ingreso exitoso a Forms" is already TRUE
             if row[5].value == True:
                 logging.info(f"Skipping row {row_number}: 'Ingreso exitoso a Forms' is already TRUE")
+                success_count += 1
                 continue
             
             try:
@@ -96,34 +143,40 @@ def submit_to_google_forms():
                     row[5].value = True  # Ingreso exitoso a Forms
                     row[6].value = SUCCESS_MESSAGE  # Observaciones
                     logging.info(f"Row {row_number} submitted successfully. Response: {response.status_code}")
+                    success_count += 1
                 else:
                     row[5].value = False  # Ingreso exitoso a Forms
                     row[6].value = FAILURE_MESSAGE  # Observaciones
                     logging.error(f"Error submitting row {row_number}. Status code: {response.status_code}, Response text: {response.text}")
+                    failure_count += 1
             
             except requests.exceptions.Timeout:
                 # Handle timeout errors (e.g., no internet connection)
                 row[5].value = False  # Ingreso exitoso a Forms
                 row[6].value = NETWORK_ERROR_MESSAGE  # Observaciones
                 logging.error(f"Timeout error submitting row {row_number}: No internet connection or server took too long to respond.")
+                failure_count += 1
             
             except requests.exceptions.ConnectionError:
                 # Handle connection errors (e.g., invalid URL or no internet)
                 row[5].value = False  # Ingreso exitoso a Forms
                 row[6].value = NETWORK_ERROR_MESSAGE  # Observaciones
                 logging.error(f"Connection error submitting row {row_number}: Invalid URL or no internet connection.")
+                failure_count += 1
             
             except requests.exceptions.RequestException as e:
                 # Handle other request-related errors (e.g., browser errors)
                 row[5].value = False  # Ingreso exitoso a Forms
                 row[6].value = BROWSER_ERROR_MESSAGE  # Observaciones
                 logging.error(f"Browser error submitting row {row_number}: {str(e)}", exc_info=True)
+                failure_count += 1
             
             except Exception as e:
                 # Handle any other unexpected errors
                 row[5].value = False  # Ingreso exitoso a Forms
                 row[6].value = FAILURE_MESSAGE  # Observaciones
                 logging.error(f"Unexpected error submitting row {row_number}: {str(e)}", exc_info=True)
+                failure_count += 1
             
             # Add delay between submissions
             time.sleep(SUBMISSION_DELAY)
@@ -131,6 +184,9 @@ def submit_to_google_forms():
         # Save the updated worktray
         worktray_wb.save(worktray_path)
         logging.info(f"Worktray updated and saved to: {worktray_path}")
+
+        # Show the results popup
+        show_results_popup(success_count, failure_count)
         
         return True
     

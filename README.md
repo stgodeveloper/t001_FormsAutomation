@@ -46,20 +46,23 @@ The project is modular, with each task handled by a separate Python script. Deta
 
 ## How It Works
 
-1. **Worktray Creation**:
+1. **Input validation**:
+   -The `input_validation.py` file ensures that the structure of the process input is validated.
+
+2. **Worktray Creation**:
    - The `worktray_creation.py` script reads the input file (`input_file.xlsx`) and creates the worktray (`worktray.xlsx`) using a template (`worktray_template.xlsx`).
    - It ensures that all required columns are present and initializes the worktray with default values.
 
-2. **Data Validation**:
+3. **Data Validation**:
    - The `input_file_processment.py` script validates the data in the worktray.
    - It checks for empty fields, validates date formats, ensures text fields contain only allowed characters, and validates numeric fields.
    - Invalid rows are flagged, and observations are added to the worktray.
 
-3. **Google Forms Submission**:
+4. **Google Forms Submission**:
    - The `google_forms_submission.py` script submits the validated data to a Google Form.
    - It updates the worktray with the submission status and logs any errors that occur during submission.
 
-4. **Main Script**:
+5. **Main Script**:
    - The `main.py` script orchestrates the entire process, running the above scripts in sequence and logging the results.
 
 ---
@@ -135,3 +138,4 @@ The project generates detailes logs for each step of the process. Logs are saved
 - shutil (for High-level file operations)
 - logging (For the process logs)
 - re (Regular expressions for special character validation)
+- tkinter (for popups configurations)

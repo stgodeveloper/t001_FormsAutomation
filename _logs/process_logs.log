@@ -301,3 +301,90 @@
 2025-03-17 00:55:04,681 - INFO - Worktray updated and saved to: process_data\worktray.xlsx
 2025-03-17 00:55:04,682 - INFO - Google Forms submission completed successfully.
 2025-03-17 00:55:04,682 - INFO - All steps completed successfully.
+2025-03-17 01:07:15,663 - INFO - Logging configured successfully.
+2025-03-17 01:07:15,663 - INFO - -------STARTING THE PROCESS-------
+2025-03-17 01:07:15,664 - INFO - Step 1: Validating the input file.
+2025-03-17 01:07:19,279 - INFO - Input file validation passed. Returning True.
+2025-03-17 01:07:19,281 - INFO - Template copied to: process_data\worktray.xlsx
+2025-03-17 01:07:19,317 - INFO - Worktray successfully updated and saved to: process_data\worktray.xlsx
+2025-03-17 01:07:19,318 - INFO - Step 2: Creating the worktray.
+2025-03-17 01:07:19,318 - INFO - Worktray created successfully.
+2025-03-17 01:07:19,318 - INFO - Step 3: Validating the worktray.
+2025-03-17 01:07:19,318 - INFO - Reading the worktray from: process_data\worktray.xlsx
+2025-03-17 01:07:19,354 - INFO - Worktray validation completed and saved to: process_data\worktray.xlsx
+2025-03-17 01:07:19,355 - INFO - Worktray validation completed successfully.
+2025-03-17 01:07:19,355 - INFO - Step 4: Submitting data to Google Forms.
+2025-03-17 01:07:19,356 - INFO - Reading the worktray from: process_data\worktray.xlsx
+2025-03-17 01:07:19,372 - INFO - Total rows to process: 4
+2025-03-17 01:07:19,372 - INFO - Processing row 1: ['A', 'a', 3000000000, datetime.datetime(2025, 3, 15, 0, 0), True, 'PENDING', None, None, None]
+2025-03-17 01:07:19,373 - INFO - Submitting row 1 to Google Forms: {'entry.274949855': 'A', 'entry.1623880646': 'a', 'entry.1721353382': 3000000000, 'entry.1896335859': datetime.datetime(2025, 3, 15, 0, 0)}
+2025-03-17 01:07:20,005 - INFO - Row 1 submitted successfully. Response: 200
+2025-03-17 01:07:21,007 - INFO - Processing row 2: ['B', 'g', 500000000, '15-3-2025', False, 'PENDING', 'Fecha de Solicitud no está en formato fecha', None, None]
+2025-03-17 01:07:21,007 - INFO - Skipping row 2: 'Datos correctos' is FALSE
+2025-03-17 01:07:21,007 - INFO - Processing row 3: ['C', 'f', 2000000000, datetime.datetime(2025, 3, 15, 0, 0), True, 'PENDING', None, None, None]
+2025-03-17 01:07:21,007 - INFO - Submitting row 3 to Google Forms: {'entry.274949855': 'C', 'entry.1623880646': 'f', 'entry.1721353382': 2000000000, 'entry.1896335859': datetime.datetime(2025, 3, 15, 0, 0)}
+2025-03-17 01:07:21,350 - INFO - Row 3 submitted successfully. Response: 200
+2025-03-17 01:07:22,352 - INFO - Processing row 4: ['D', 's', 1, datetime.datetime(2025, 3, 15, 0, 0), True, 'PENDING', None, None, None]
+2025-03-17 01:07:22,352 - INFO - Submitting row 4 to Google Forms: {'entry.274949855': 'D', 'entry.1623880646': 's', 'entry.1721353382': 1, 'entry.1896335859': datetime.datetime(2025, 3, 15, 0, 0)}
+2025-03-17 01:07:22,900 - INFO - Row 4 submitted successfully. Response: 200
+2025-03-17 01:07:23,934 - INFO - Worktray updated and saved to: process_data\worktray.xlsx
+2025-03-17 01:07:23,934 - INFO - Google Forms submission completed successfully.
+2025-03-17 01:07:23,934 - INFO - All steps completed successfully.
+2025-03-17 01:22:08,048 - INFO - Logging configured successfully.
+2025-03-17 01:22:08,048 - INFO - -------STARTING THE PROCESS-------
+2025-03-17 01:22:08,048 - INFO - Step 1: Validating the input file.
+2025-03-17 01:22:12,537 - INFO - Input file validation passed. Returning True.
+2025-03-17 01:22:12,538 - INFO - Template copied to: process_data\worktray.xlsx
+2025-03-17 01:22:12,574 - INFO - Worktray successfully updated and saved to: process_data\worktray.xlsx
+2025-03-17 01:22:12,574 - INFO - Step 2: Creating the worktray.
+2025-03-17 01:22:12,574 - INFO - Worktray created successfully.
+2025-03-17 01:22:12,575 - INFO - Step 3: Validating the worktray.
+2025-03-17 01:22:12,575 - INFO - Reading the worktray from: process_data\worktray.xlsx
+2025-03-17 01:22:12,600 - INFO - Worktray validation completed and saved to: process_data\worktray.xlsx
+2025-03-17 01:22:12,600 - INFO - Worktray validation completed successfully.
+2025-03-17 01:22:12,600 - INFO - Step 4: Submitting data to Google Forms.
+2025-03-17 01:22:12,601 - INFO - Reading the worktray from: process_data\worktray.xlsx
+2025-03-17 01:22:12,618 - INFO - Total rows to process: 4
+2025-03-17 01:22:12,618 - INFO - Processing row 1: ['A', 'a', 3000000000, datetime.datetime(2025, 3, 15, 0, 0), True, 'PENDING', None, None, None]
+2025-03-17 01:22:12,618 - INFO - Submitting row 1 to Google Forms: {'entry.274949855': 'A', 'entry.1623880646': 'a', 'entry.1721353382': 3000000000, 'entry.1896335859': datetime.datetime(2025, 3, 15, 0, 0)}
+2025-03-17 01:22:13,113 - INFO - Row 1 submitted successfully. Response: 200
+2025-03-17 01:22:14,115 - INFO - Processing row 2: ['B', 'g', 500000000, '15-3-2025', False, 'PENDING', 'Fecha de Solicitud no está en formato fecha', None, None]
+2025-03-17 01:22:14,116 - INFO - Skipping row 2: 'Datos correctos' is FALSE
+2025-03-17 01:22:14,117 - INFO - Processing row 3: ['C', 'f', 2000000000, datetime.datetime(2025, 3, 15, 0, 0), True, 'PENDING', None, None, None]
+2025-03-17 01:22:14,118 - INFO - Submitting row 3 to Google Forms: {'entry.274949855': 'C', 'entry.1623880646': 'f', 'entry.1721353382': 2000000000, 'entry.1896335859': datetime.datetime(2025, 3, 15, 0, 0)}
+2025-03-17 01:22:14,854 - INFO - Row 3 submitted successfully. Response: 200
+2025-03-17 01:22:15,856 - INFO - Processing row 4: ['D', 's', 1, datetime.datetime(2025, 3, 15, 0, 0), True, 'PENDING', None, None, None]
+2025-03-17 01:22:15,857 - INFO - Submitting row 4 to Google Forms: {'entry.274949855': 'D', 'entry.1623880646': 's', 'entry.1721353382': 1, 'entry.1896335859': datetime.datetime(2025, 3, 15, 0, 0)}
+2025-03-17 01:22:16,513 - INFO - Row 4 submitted successfully. Response: 200
+2025-03-17 01:22:17,531 - INFO - Worktray updated and saved to: process_data\worktray.xlsx
+2025-03-17 01:22:22,653 - INFO - Google Forms submission completed successfully.
+2025-03-17 01:22:22,654 - INFO - All steps completed successfully.
+2025-03-17 01:23:26,318 - INFO - Logging configured successfully.
+2025-03-17 01:23:26,319 - INFO - -------STARTING THE PROCESS-------
+2025-03-17 01:23:26,319 - INFO - Step 1: Validating the input file.
+2025-03-17 01:23:32,325 - INFO - Input file validation passed. Returning True.
+2025-03-17 01:23:32,327 - INFO - Template copied to: process_data\worktray.xlsx
+2025-03-17 01:23:32,364 - INFO - Worktray successfully updated and saved to: process_data\worktray.xlsx
+2025-03-17 01:23:32,364 - INFO - Step 2: Creating the worktray.
+2025-03-17 01:23:32,364 - INFO - Worktray created successfully.
+2025-03-17 01:23:32,364 - INFO - Step 3: Validating the worktray.
+2025-03-17 01:23:32,364 - INFO - Reading the worktray from: process_data\worktray.xlsx
+2025-03-17 01:23:32,389 - INFO - Worktray validation completed and saved to: process_data\worktray.xlsx
+2025-03-17 01:23:32,389 - INFO - Worktray validation completed successfully.
+2025-03-17 01:23:32,389 - INFO - Step 4: Submitting data to Google Forms.
+2025-03-17 01:23:32,389 - INFO - Reading the worktray from: process_data\worktray.xlsx
+2025-03-17 01:23:32,405 - INFO - Total rows to process: 4
+2025-03-17 01:23:32,405 - INFO - Processing row 1: ['A', 'a', 3000000000, datetime.datetime(2025, 3, 15, 0, 0), True, 'PENDING', None, None, None]
+2025-03-17 01:23:32,405 - INFO - Submitting row 1 to Google Forms: {'entry.274949855': 'A', 'entry.1623880646': 'a', 'entry.1721353382': 3000000000, 'entry.1896335859': datetime.datetime(2025, 3, 15, 0, 0)}
+2025-03-17 01:23:32,813 - INFO - Row 1 submitted successfully. Response: 200
+2025-03-17 01:23:33,814 - INFO - Processing row 2: ['B', 'g', 500000000, '15-3-2025', False, 'PENDING', 'Fecha de Solicitud no está en formato fecha', None, None]
+2025-03-17 01:23:33,814 - INFO - Skipping row 2: 'Datos correctos' is FALSE
+2025-03-17 01:23:33,814 - INFO - Processing row 3: ['C', 'f', 2000000000, datetime.datetime(2025, 3, 15, 0, 0), True, 'PENDING', None, None, None]
+2025-03-17 01:23:33,814 - INFO - Submitting row 3 to Google Forms: {'entry.274949855': 'C', 'entry.1623880646': 'f', 'entry.1721353382': 2000000000, 'entry.1896335859': datetime.datetime(2025, 3, 15, 0, 0)}
+2025-03-17 01:23:34,595 - INFO - Row 3 submitted successfully. Response: 200
+2025-03-17 01:23:35,596 - INFO - Processing row 4: ['D', 's', 1, datetime.datetime(2025, 3, 15, 0, 0), True, 'PENDING', None, None, None]
+2025-03-17 01:23:35,596 - INFO - Submitting row 4 to Google Forms: {'entry.274949855': 'D', 'entry.1623880646': 's', 'entry.1721353382': 1, 'entry.1896335859': datetime.datetime(2025, 3, 15, 0, 0)}
+2025-03-17 01:23:36,182 - INFO - Row 4 submitted successfully. Response: 200
+2025-03-17 01:23:37,211 - INFO - Worktray updated and saved to: process_data\worktray.xlsx
+2025-03-17 01:23:39,984 - INFO - Google Forms submission completed successfully.
+2025-03-17 01:23:39,984 - INFO - All steps completed successfully.

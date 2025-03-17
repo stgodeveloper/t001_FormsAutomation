@@ -115,3 +115,73 @@
 2025-03-17 00:30:37,515 - INFO - Row 4 submitted successfully. Response: 200
 2025-03-17 00:30:38,535 - INFO - Worktray updated and saved to: process_data\worktray.xlsx
 2025-03-17 00:30:38,536 - INFO - Google Forms submission completed successfully.
+2025-03-17 01:10:50,392 - INFO - Logging configured successfully.
+2025-03-17 01:10:50,392 - INFO - ---- Starting module 'google_forms_submission' ----
+2025-03-17 01:10:50,392 - INFO - Reading the worktray from: process_data\worktray.xlsx
+2025-03-17 01:10:50,399 - INFO - Total rows to process: 4
+2025-03-17 01:10:50,399 - INFO - Processing row 1: ['A', 'a', 3000000000, datetime.datetime(2025, 3, 15, 0, 0), True, True, 'Ingreso exitoso a Forms', None, None]
+2025-03-17 01:10:50,399 - INFO - Skipping row 1: 'Ingreso exitoso a Forms' is already TRUE
+2025-03-17 01:10:50,399 - INFO - Processing row 2: ['B', 'g', 500000000, '15-3-2025', False, 'PENDING', 'Fecha de Solicitud no está en formato fecha', None, None]
+2025-03-17 01:10:50,400 - INFO - Skipping row 2: 'Datos correctos' is FALSE
+2025-03-17 01:10:50,400 - INFO - Processing row 3: ['C', 'f', 2000000000, datetime.datetime(2025, 3, 15, 0, 0), True, True, 'Ingreso exitoso a Forms', None, None]
+2025-03-17 01:10:50,400 - INFO - Skipping row 3: 'Ingreso exitoso a Forms' is already TRUE
+2025-03-17 01:10:50,400 - INFO - Processing row 4: ['D', 's', 1, datetime.datetime(2025, 3, 15, 0, 0), True, True, 'Ingreso exitoso a Forms', None, None]
+2025-03-17 01:10:50,400 - INFO - Skipping row 4: 'Ingreso exitoso a Forms' is already TRUE
+2025-03-17 01:10:50,413 - INFO - Worktray updated and saved to: process_data\worktray.xlsx
+2025-03-17 01:10:55,594 - INFO - Google Forms submission completed successfully.
+2025-03-17 01:13:01,616 - INFO - Logging configured successfully.
+2025-03-17 01:13:01,619 - INFO - ---- Starting module 'google_forms_submission' ----
+2025-03-17 01:13:01,619 - INFO - Reading the worktray from: process_data\worktray.xlsx
+2025-03-17 01:13:01,628 - INFO - Total rows to process: 4
+2025-03-17 01:13:01,628 - INFO - Processing row 1: ['A', 'a', 3000000000, datetime.datetime(2025, 3, 15, 0, 0), True, True, 'Ingreso exitoso a Forms', None, None]
+2025-03-17 01:13:01,628 - INFO - Skipping row 1: 'Ingreso exitoso a Forms' is already TRUE
+2025-03-17 01:13:01,628 - INFO - Processing row 2: ['B', 'g', 500000000, '15-3-2025', False, 'PENDING', 'Fecha de Solicitud no está en formato fecha', None, None]
+2025-03-17 01:13:01,628 - INFO - Skipping row 2: 'Datos correctos' is FALSE
+2025-03-17 01:13:01,629 - INFO - Processing row 3: ['C', 'f', 2000000000, datetime.datetime(2025, 3, 15, 0, 0), True, True, 'Ingreso exitoso a Forms', None, None]
+2025-03-17 01:13:01,629 - INFO - Skipping row 3: 'Ingreso exitoso a Forms' is already TRUE
+2025-03-17 01:13:01,629 - INFO - Processing row 4: ['D', 's', 1, datetime.datetime(2025, 3, 15, 0, 0), True, True, 'Ingreso exitoso a Forms', None, None]
+2025-03-17 01:13:01,629 - INFO - Skipping row 4: 'Ingreso exitoso a Forms' is already TRUE
+2025-03-17 01:13:01,647 - INFO - Worktray updated and saved to: process_data\worktray.xlsx
+2025-03-17 01:13:07,169 - INFO - Google Forms submission completed successfully.
+2025-03-17 01:16:37,516 - INFO - Logging configured successfully.
+2025-03-17 01:16:37,516 - INFO - ---- Starting module 'google_forms_submission' ----
+2025-03-17 01:16:37,517 - INFO - Reading the worktray from: process_data\worktray.xlsx
+2025-03-17 01:16:37,536 - INFO - Total rows to process: 4
+2025-03-17 01:16:37,536 - INFO - Processing row 1: ['A', 'a', 3000000000, datetime.datetime(2025, 3, 15, 0, 0), True, True, 'Ingreso exitoso a Forms', None, None]
+2025-03-17 01:16:37,536 - INFO - Skipping row 1: 'Ingreso exitoso a Forms' is already TRUE
+2025-03-17 01:16:37,536 - INFO - Processing row 2: ['B', 'g', 500000000, '15-3-2025', False, 'PENDING', 'Fecha de Solicitud no está en formato fecha', None, None]
+2025-03-17 01:16:37,537 - INFO - Skipping row 2: 'Datos correctos' is FALSE
+2025-03-17 01:16:37,537 - INFO - Processing row 3: ['C', 'f', 2000000000, datetime.datetime(2025, 3, 15, 0, 0), True, True, 'Ingreso exitoso a Forms', None, None]
+2025-03-17 01:16:37,537 - INFO - Skipping row 3: 'Ingreso exitoso a Forms' is already TRUE
+2025-03-17 01:16:37,537 - INFO - Processing row 4: ['D', 's', 1, datetime.datetime(2025, 3, 15, 0, 0), True, True, 'Ingreso exitoso a Forms', None, None]
+2025-03-17 01:16:37,537 - INFO - Skipping row 4: 'Ingreso exitoso a Forms' is already TRUE
+2025-03-17 01:16:37,549 - INFO - Worktray updated and saved to: process_data\worktray.xlsx
+2025-03-17 01:16:39,113 - INFO - Google Forms submission completed successfully.
+2025-03-17 01:21:18,246 - INFO - Logging configured successfully.
+2025-03-17 01:21:18,246 - INFO - ---- Starting module 'google_forms_submission' ----
+2025-03-17 01:21:18,246 - INFO - Reading the worktray from: process_data\worktray.xlsx
+2025-03-17 01:21:18,265 - INFO - Total rows to process: 4
+2025-03-17 01:21:18,265 - INFO - Processing row 1: ['A', 'a', 3000000000, datetime.datetime(2025, 3, 15, 0, 0), True, True, 'Ingreso exitoso a Forms', None, None]
+2025-03-17 01:21:18,266 - INFO - Skipping row 1: 'Ingreso exitoso a Forms' is already TRUE
+2025-03-17 01:21:18,266 - INFO - Processing row 2: ['B', 'g', 500000000, '15-3-2025', False, 'PENDING', 'Fecha de Solicitud no está en formato fecha', None, None]
+2025-03-17 01:21:18,266 - INFO - Skipping row 2: 'Datos correctos' is FALSE
+2025-03-17 01:21:18,266 - INFO - Processing row 3: ['C', 'f', 2000000000, datetime.datetime(2025, 3, 15, 0, 0), True, True, 'Ingreso exitoso a Forms', None, None]
+2025-03-17 01:21:18,266 - INFO - Skipping row 3: 'Ingreso exitoso a Forms' is already TRUE
+2025-03-17 01:21:18,267 - INFO - Processing row 4: ['D', 's', 1, datetime.datetime(2025, 3, 15, 0, 0), True, True, 'Ingreso exitoso a Forms', None, None]
+2025-03-17 01:21:18,267 - INFO - Skipping row 4: 'Ingreso exitoso a Forms' is already TRUE
+2025-03-17 01:21:18,280 - INFO - Worktray updated and saved to: process_data\worktray.xlsx
+2025-03-17 01:21:20,940 - INFO - Google Forms submission completed successfully.
+2025-03-17 01:21:56,216 - INFO - Logging configured successfully.
+2025-03-17 01:21:56,216 - INFO - ---- Starting module 'google_forms_submission' ----
+2025-03-17 01:21:56,217 - INFO - Reading the worktray from: process_data\worktray.xlsx
+2025-03-17 01:21:56,234 - INFO - Total rows to process: 4
+2025-03-17 01:21:56,234 - INFO - Processing row 1: ['A', 'a', 3000000000, datetime.datetime(2025, 3, 15, 0, 0), True, True, 'Ingreso exitoso a Forms', None, None]
+2025-03-17 01:21:56,234 - INFO - Skipping row 1: 'Ingreso exitoso a Forms' is already TRUE
+2025-03-17 01:21:56,235 - INFO - Processing row 2: ['B', 'g', 500000000, '15-3-2025', False, 'PENDING', 'Fecha de Solicitud no está en formato fecha', None, None]
+2025-03-17 01:21:56,235 - INFO - Skipping row 2: 'Datos correctos' is FALSE
+2025-03-17 01:21:56,235 - INFO - Processing row 3: ['C', 'f', 2000000000, datetime.datetime(2025, 3, 15, 0, 0), True, True, 'Ingreso exitoso a Forms', None, None]
+2025-03-17 01:21:56,235 - INFO - Skipping row 3: 'Ingreso exitoso a Forms' is already TRUE
+2025-03-17 01:21:56,235 - INFO - Processing row 4: ['D', 's', 1, datetime.datetime(2025, 3, 15, 0, 0), True, True, 'Ingreso exitoso a Forms', None, None]
+2025-03-17 01:21:56,236 - INFO - Skipping row 4: 'Ingreso exitoso a Forms' is already TRUE
+2025-03-17 01:21:56,248 - INFO - Worktray updated and saved to: process_data\worktray.xlsx
+2025-03-17 01:21:58,719 - INFO - Google Forms submission completed successfully.

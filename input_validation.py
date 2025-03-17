@@ -118,7 +118,7 @@ def input_validation_module():
     input_file_path = os.path.join(INPUT_DIRECTORY, INPUT_FILE)
     input_data = pd.read_excel(input_file_path)
     transaction_count = len(input_data)
-    show_popup_centered("Carga de Transacciones", f"Se cargarán un total de {transaction_count} transacciones.", "info")
+    show_popup_centered("Carga de Transacciones", f"Se intentarán cargar un total de {transaction_count} transacciones.", "info")
     logging.info("Input file validation passed. Returning True.")
     return True
 
